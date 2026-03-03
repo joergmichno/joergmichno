@@ -13,7 +13,7 @@
 
 ---
 
-Ich entwickle Sicherheits-Tools für KI-Agenten und arbeite an der Schnittstelle von **Generativer KI** und **Cybersecurity**. Mein Fokus liegt darauf, autonome AI-Agenten sicherer zu machen — von der Erkennung von Prompt Injection bis zur Laufzeitüberwachung.
+Ich entwickle Sicherheits-Tools für KI-Agenten und arbeite an der Schnittstelle von **Generativer KI** und **Cybersecurity**. Mein Fokus: autonome AI-Agenten sicherer machen — von Prompt Injection Detection über Security-Scanning-APIs bis zur Laufzeitüberwachung.
 
 ## Projekte
 
@@ -72,7 +72,19 @@ Interaktive Web-App zum Testen und Verstehen von Prompt-Injection-Angriffen. 25+
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td width="50%">
+
+### 🔒 [ClawGuard Shield](https://github.com/joergmichno/clawguard-shield)
+**Security Scanning REST API (SaaS)**
+
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/joergmichno/clawguard-shield)
+[![Tests](https://img.shields.io/badge/Tests-52_passed-brightgreen?style=flat&logo=pytest&logoColor=white)](https://github.com/joergmichno/clawguard-shield)
+[![Live API](https://img.shields.io/badge/API-Live-brightgreen?style=flat&logo=rocket&logoColor=white)](https://prompttools.co/api/v1/)
+
+REST API für AI-Agent-Security: Prompt Injection, Datenexfiltration, Code-Obfuscation, Social Engineering. API-Key-Auth, Tier-basiertes Rate-Limiting, Docker-deployed. Powered by ClawGuard.
+
+</td>
+<td width="50%">
 
 ### 🤖 Buddy — Autonomous AI Agent
 **Self-hosted AI Agent on VPS with Telegram Integration**
@@ -81,7 +93,7 @@ Interaktive Web-App zum Testen und Verstehen von Prompt-Injection-Angriffen. 25+
 [![Telegram](https://img.shields.io/badge/Telegram-Bot-26A5E4?style=flat&logo=telegram&logoColor=white)](#)
 [![ElevenLabs](https://img.shields.io/badge/ElevenLabs-TTS-000000?style=flat&logo=data:image/svg+xml;base64,&logoColor=white)](#)
 
-Autonomer KI-Agent auf eigenem Hostinger VPS: Docker-basiert, Telegram-Bot mit multilingualer Sprachausgabe (ElevenLabs TTS), Shared Memory System für persistenten Kontext zwischen Sessions, eigene ClawGuard-Integration als Security-Skill, Cron-basiertes Monitoring. Gesteuert via Telegram — auch vom Smartphone.
+Autonomer KI-Agent auf eigenem Hostinger VPS: Docker-basiert, Telegram-Bot mit multilingualer Sprachausgabe (ElevenLabs TTS), Shared Memory System, ClawGuard-Integration als Security-Skill.
 
 </td>
 </tr>
@@ -97,6 +109,7 @@ Autonomer KI-Agent auf eigenem Hostinger VPS: Docker-basiert, Telegram-Bot mit m
 ![RAG](https://img.shields.io/badge/RAG-4A154B?style=for-the-badge&logoColor=white)
 ![LLM Security](https://img.shields.io/badge/LLM_Security-DC143C?style=for-the-badge&logoColor=white)
 ![Red Teaming](https://img.shields.io/badge/Red_Teaming-8B0000?style=for-the-badge&logoColor=white)
+![API Security](https://img.shields.io/badge/API_Security-FF4500?style=for-the-badge&logoColor=white)
 
 **Sprachen & Frameworks**
 
@@ -117,6 +130,7 @@ Autonomer KI-Agent auf eigenem Hostinger VPS: Docker-basiert, Telegram-Bot mit m
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
