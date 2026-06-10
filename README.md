@@ -16,7 +16,7 @@
 
 I build security tools for AI agents, working at the intersection of **Generative AI** and **Cybersecurity**. Focus: making autonomous AI agents safer — from prompt injection detection to EU AI Act compliance scanning.
 
-**Key numbers:** 225 detection patterns · 15 languages · F1=98.3% · <6ms latency · OWASP LLM+Agentic+MCP Top 10: 100% coverage · 33 security advisories filed (285k+ Stars reach)
+**Key numbers:** 225 detection patterns · 15 languages · <6ms latency · deterministic regex engine (zero LLM dependency) · per-pattern OWASP LLM + Agentic Top 10 mapping · 11,529 MCP servers scanned
 
 ## Projects
 
@@ -30,10 +30,9 @@ I build security tools for AI agents, working at the intersection of **Generativ
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/joergmichno/clawguard)
 [![PyPI](https://img.shields.io/pypi/v/clawguard?style=flat&logo=pypi&logoColor=white)](https://pypi.org/project/clawguard/)
 [![Tests](https://img.shields.io/badge/Benchmark-269_cases-brightgreen?style=flat&logo=pytest&logoColor=white)](https://github.com/joergmichno/clawguard)
-[![F1](https://img.shields.io/badge/F1-98.3%25-brightgreen?style=flat)](https://github.com/joergmichno/clawguard)
 [![License](https://img.shields.io/github/license/joergmichno/clawguard?style=flat)](https://github.com/joergmichno/clawguard/blob/main/LICENSE)
 
-Real-time detection of prompt injection, jailbreaks, code injection, social engineering and data exfiltration. **225 patterns across 12 categories in 15 languages.** Zero LLM dependency, <6ms latency.
+Real-time detection of prompt injection, jailbreaks, code injection, social engineering and data exfiltration. **225 patterns across 15 languages.** Zero LLM dependency, <6ms latency.
 
 </td>
 <td width="50%">
@@ -85,8 +84,7 @@ MCP server for Claude Desktop, Cursor & Windsurf — security scanning directly 
 
 ### Security Research
 
-- **33 security advisories** filed across major open source projects (Google genai-toolbox, Notion MCP, Laravel, n8n, GhidraMCP, git-mcp, XcodeBuildMCP and more)
-- **285k+ combined Stars** across affected repositories
+- **Responsible-disclosure security research** across major open-source MCP projects (Google genai-toolbox, Notion MCP, Laravel, n8n, GhidraMCP, git-mcp, XcodeBuildMCP and more), including maintainer-confirmed findings
 - **Blog:** [14 articles](https://prompttools.co/blog) on prompt injection, MCP security, EU AI Act compliance
 - **Registry Dashboard:** [11,529 MCP servers scanned](https://prompttools.co/registry) for security vulnerabilities
 
