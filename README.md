@@ -5,7 +5,7 @@
 **Security Researcher & Builder · AI-Agent Security**
 
 [![GitHub](https://img.shields.io/badge/GitHub-joergmichno-181717?style=flat&logo=github)](https://github.com/joergmichno)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jörg_Michno-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jörg-michno-6a3899245)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jörg_Michno-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joergmichno)
 [![Location](https://img.shields.io/badge/Hannover-Germany-blue?style=flat&logo=googlemaps&logoColor=white)](https://github.com/joergmichno)
 [![ModVet](https://img.shields.io/pypi/v/modvet?style=flat&logo=pypi&logoColor=white&label=modvet)](https://pypi.org/project/modvet/)
 [![Blog](https://img.shields.io/badge/Blog-16_Posts-blue?style=flat&logo=rss&logoColor=white)](https://prompttools.co/blog)
