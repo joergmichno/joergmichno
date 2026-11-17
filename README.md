@@ -1,97 +1,41 @@
-<div align="center">
-
 # Jörg Michno
 
-**Security Researcher & Builder · AI-Agent Security**
+**Technische Umsetzung zum Festpreis — für Unternehmen & Webagenturen**
 
-[![GitHub](https://img.shields.io/badge/GitHub-joergmichno-181717?style=flat&logo=github)](https://github.com/joergmichno)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jörg_Michno-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joergmichno)
-[![Location](https://img.shields.io/badge/Hannover-Germany-blue?style=flat&logo=googlemaps&logoColor=white)](https://github.com/joergmichno)
-[![ModVet](https://img.shields.io/pypi/v/modvet?style=flat&logo=pypi&logoColor=white&label=modvet)](https://pypi.org/project/modvet/)
-[![Blog](https://img.shields.io/badge/Blog-16_Posts-blue?style=flat&logo=rss&logoColor=white)](https://prompttools.co/blog)
-
-</div>
+Langenhagen bei Hannover · 100 % Remote (deutschsprachig) · [https://prompttools.co](https://prompttools.co)
 
 ---
 
-Active **Microsoft Security Response Center (MSRC) researcher — Q2 2026 Leaderboard**. I find and report real vulnerabilities; when Microsoft says "MSRC Listens", it's not marketing.
+Ich repariere Websites, prüfe digitale Barrieren und automatisiere wiederkehrende Abläufe in Python — klar abgegrenzt zum Festpreis und mit nachvollziehbarem Prüfprotokoll.
 
-**Currently building [ModVet](https://github.com/joergmichno/modvet)** — a deterministic pre-install scanner for Claude Code mods. *The update is the attack*: mods run unsandboxed with your permissions, and a clean mod can turn malicious on its next auto-update. ModVet vets mods before you install them — offline, no LLM, 0 €.
+- **Fachinformatiker für Anwendungsentwicklung** (IHK 2026)
+- **Anerkannter Sicherheitsforscher — Microsoft MSRC Q2 2026 Leaderboard** (u. a. MSRC Case `112305` sowie bestätigte Meldungen an Open-Source-Projekte; *unabhängige Sicherheitsforschung, keine Microsoft-Zertifizierung oder Partnerschaft*)
 
-```bash
-pip install modvet
-```
+## Leistungspakete im Überblick
 
-**Key numbers:** ~400 deterministic detection patterns · capability-combination logic (env-read + POST = exfiltration) · OWASP MCP Top 10 mapping · JSON/SARIF/badge output · update-delta auditing (`snapshot`/`diff`)
+- **99 € Festpreis — Website-/SSL-/Formular-Reparatur**  
+  Ein vereinbarter Fehler an einer Website oder Domain: Ursache klären, Korrektur umsetzen und Funktion nachtesten *(mit passenden Zugängen und Sicherung; kein Relaunch, Fremdkosten nur nach Freigabe)*.
+- **199 € Festpreis — Barrierefreiheits-Stichprobe + PDF-Plan**  
+  Eine öffentliche Unterseite am Desktop (Beschriftungen, Textalternativen, Tastatur-Fokus, Textkontrast) inklusive PDF mit Befunden, Prioritäten und Korrekturplan *(kein vollständiger BFSG-/WCAG-Test, kein Zertifikat, keine Rechtsberatung)*.
+- **ab 490 € Festpreis — Python-Automatisierung & Agentur-Zulieferung**  
+  Ein kleiner, schriftlich abgegrenzter Ablauf (z. B. Daten aufbereiten, Prüf- oder Berichtsläufe, technische Zuarbeit für Agenturen — auf Wunsch White-Label ohne Endkundenkontakt) inklusive Quellcode, Tests und Anleitung.
 
-## Projects
+## Zusammenarbeit
 
-<table>
-<tr>
-<td width="50%">
+- **Schriftliches Angebot:** Umfang, fester Gesamtpreis und Prüfkriterien vor dem Start.
+- **Prüfprotokoll:** Ergebnis nachvollziehbar dokumentiert mit Übergabe- und Nachtest-Hinweisen.
+- **Kontaktaufnahme:** Ab `~500 €` auf Wunsch ein kurzes deutsches Kennenlern-Telefonat („Hallo sagen“); technische Details und Freigaben bleiben schriftlich auf Deutsch.
+- **Steuerhinweis:** Alle Preise sind Endpreise; gemäß `§ 19 UStG` wird keine Umsatzsteuer berechnet.
 
-### 🛡️ [ModVet](https://github.com/joergmichno/modvet)
-**Pre-install security scanner for Claude Code mods**
+## Ausgewählte öffentliche Projekte & Fachbeiträge
 
-[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/modvet/)
-[![PyPI](https://img.shields.io/pypi/v/modvet?style=flat&logo=pypi&logoColor=white)](https://pypi.org/project/modvet/)
-[![License](https://img.shields.io/github/license/joergmichno/modvet?style=flat)](https://github.com/joergmichno/modvet/blob/main/LICENSE)
+- **[ModVet](https://github.com/joergmichno/modvet)** (`Apache-2.0`, [PyPI](https://pypi.org/project/modvet/)) — Deterministischer Offline-Sicherheitsscanner für KI-Erweiterungen in Python (ohne laufende API-Kosten).
+- **[Project Manager](https://github.com/joergmichno/project-manager)** — Projekt-Dashboard mit Gantt, Kanban und Frühwarnsystem (Next.js / TypeScript).
+- **[Fachbeiträge auf prompttools.co/blog](https://prompttools.co/blog)** — Technische Artikel zu Web- und Anwendungssicherheit.
 
-Detects prompt injection, dangerous capability combinations, hardcoded secrets and update trojans in Claude Code mods. Zero dependencies, deterministic, CI-ready exit codes.
+## Kontakt
 
-</td>
-<td width="50%">
-
-### 🔒 [ClawGuard Shield](https://github.com/joergmichno/clawguard-shield)
-**Security Scanning REST API** · [**Live →**](https://prompttools.co/shield)
-
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/joergmichno/clawguard-shield)
-[![API](https://img.shields.io/badge/API-Live-brightgreen?style=flat&logo=rocket&logoColor=white)](https://prompttools.co/shield)
-
-REST API for AI security scanning: prompt injection, jailbreaks, data exfiltration. EU AI Act audit reports, Free tier, Pro & Enterprise plans, Docker-deployed.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ⚡ [ClawGuard Action](https://github.com/joergmichno/clawguard-action)
-**`uses: joergmichno/clawguard-action@v1`**
-
-CI/CD gate: scan prompts and MCP configs on every PR. Configurable severity thresholds, PR annotations, fail-on-critical.
-
-</td>
-<td width="50%">
-
-### 🔌 [ClawGuard MCP Server](https://github.com/joergmichno/clawguard-mcp)
-**`pip install clawguard-mcp`**
-
-MCP server for Claude Desktop, Cursor & Windsurf — security scanning directly in your editor.
-
-</td>
-</tr>
-</table>
-
-### SDKs & Ecosystem
-
-| Repo | Description |
-|------|-------------|
-| 🐍 [Shield Python SDK](https://github.com/joergmichno/clawguard-shield-python) | `pip install clawguard-shield` — scan any prompt in 3 lines. |
-| 📦 [Shield JS SDK](https://github.com/joergmichno/clawguard-shield-js) | `npm install clawguard-shield` — zero deps, ESM+CJS+TS. |
-| 🧪 [Prompt Lab](https://github.com/joergmichno/prompt-lab) | Interactive Prompt Injection Playground — [Live →](https://prompttools.co) |
-| 📊 [Project Manager](https://github.com/joergmichno/project-manager) | Project dashboard with Gantt, Kanban & early warning system. |
-
-### Security Research
-
-- **MSRC researcher — Q2 2026 Leaderboard** (Microsoft Security Response Center)
-- **Responsible disclosure** across major open-source MCP projects (Google genai-toolbox, Notion MCP, Laravel, n8n, GhidraMCP, git-mcp, XcodeBuildMCP and more), including maintainer-confirmed findings
-- **Blog:** [16 articles](https://prompttools.co/blog) on prompt injection, MCP security, AI-agent supply chain
-- **Registry Dashboard:** [11,529 MCP servers scanned](https://prompttools.co/registry) for security vulnerabilities
-
----
-
-<div align="center">
-
-*Building the security layer between AI agents and the real world.*
-
-</div>
+- **Website & Arbeitsproben:** [https://prompttools.co](https://prompttools.co) · [Leistungen](https://prompttools.co/services)
+- **E-Mail:** [joerg.michno@gmail.com](mailto:joerg.michno@gmail.com)
+- **LinkedIn:** [linkedin.com/in/joergmichno](https://www.linkedin.com/in/joergmichno)
+- **Geschäftsangaben:** Walsroder Straße 351 · 30855 Langenhagen · W-IdNr. DE308094818 · § 19 UStG
