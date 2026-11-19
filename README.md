@@ -1,41 +1,32 @@
 # Jörg Michno
 
-**Technische Umsetzung zum Festpreis — für Unternehmen & Webagenturen**
+[Leistungen](https://prompttools.co/#leistungen) · [Arbeitsproben](https://prompttools.co/#arbeitsproben) · [Leistungsblatt (PDF)](https://prompttools.co/leistungsblatt-joerg-michno.pdf) · [Bewerbungsprofil (PDF)](https://prompttools.co/bewerbungsprofil-joerg-michno.pdf) · [joerg.michno@gmail.com](mailto:joerg.michno@gmail.com)
 
-Langenhagen bei Hannover · 100 % Remote (deutschsprachig) · [https://prompttools.co](https://prompttools.co)
+Ich bin Fachinformatiker für Anwendungsentwicklung (IHK) aus Langenhagen bei Hannover. Für Unternehmen und Webagenturen repariere ich Websites, prüfe einzelne Barrieren und automatisiere wiederkehrende Aufgaben. Ich arbeite vollständig remote und auf Deutsch.
 
----
+Nebenbei forsche ich unabhängig zu Sicherheitslücken. Das Microsoft Security Response Center hat mich im Researcher Leaderboard für Q2 2026 gelistet. Das ist keine Microsoft-Zertifizierung oder Partnerschaft.
 
-Ich repariere Websites, prüfe digitale Barrieren und automatisiere wiederkehrende Abläufe in Python — klar abgegrenzt zum Festpreis und mit nachvollziehbarem Prüfprotokoll.
+## Leistungen und Preise
 
-- **Fachinformatiker für Anwendungsentwicklung** (IHK 2026)
-- **Anerkannter Sicherheitsforscher — Microsoft MSRC Q2 2026 Leaderboard** (u. a. MSRC Case `112305` sowie bestätigte Meldungen an Open-Source-Projekte; *unabhängige Sicherheitsforschung, keine Microsoft-Zertifizierung oder Partnerschaft*)
+- **49 € für den engen Formular-Fix.** Ich korrigiere einen klar abgegrenzten Fehler im Kontaktformular auf einer Testkopie.
+- **99 € für den Komplett-Fix.** Ich grenze einen vereinbarten Fehler an einer Website oder Domain ein, behebe ihn und teste nach. Das gilt für Website, SSL/DNS oder Kontaktformular. Voraussetzung sind passende Zugänge und eine Sicherung. Ein Relaunch, Hostingwechsel oder Zertifikatskauf gehört nicht dazu. Fremdkosten fallen nur nach Ihrer Freigabe an.
+- **199 € für eine Barrierefreiheits-Stichprobe am Desktop.** Ich prüfe eine öffentliche Unterseite stichprobenartig auf Beschriftungen, Textalternativen, Tastaturfokus und Kontrast. Sie erhalten ein PDF mit Befunden, Prioritäten und einem Korrekturplan. Das ist keine Vollprüfung nach BFSG oder WCAG, kein Zertifikat und keine Rechtsberatung. Umsetzung und Nachprüfung sind separate Aufträge.
+- **Ab 490 € für Python-Automatisierung und Datenaufbereitung.** Ich bereite zum Beispiel Excel- oder CSV-Daten auf. Für Webagenturen liefere ich auf Wunsch unter deren Namen (White-Label). Mit Endkunden spreche ich nur nach Freigabe der Agentur. Zum vereinbarten Umfang gehören Quellcode, Tests mit Beispieldaten und eine kurze Anleitung.
 
-## Leistungspakete im Überblick
+## So läuft ein Auftrag ab
 
-- **99 € Festpreis — Website-/SSL-/Formular-Reparatur**  
-  Ein vereinbarter Fehler an einer Website oder Domain: Ursache klären, Korrektur umsetzen und Funktion nachtesten *(mit passenden Zugängen und Sicherung; kein Relaunch, Fremdkosten nur nach Freigabe)*.
-- **199 € Festpreis — Barrierefreiheits-Stichprobe + PDF-Plan**  
-  Eine öffentliche Unterseite am Desktop (Beschriftungen, Textalternativen, Tastatur-Fokus, Textkontrast) inklusive PDF mit Befunden, Prioritäten und Korrekturplan *(kein vollständiger BFSG-/WCAG-Test, kein Zertifikat, keine Rechtsberatung)*.
-- **ab 490 € Festpreis — Python-Automatisierung & Agentur-Zulieferung**  
-  Ein kleiner, schriftlich abgegrenzter Ablauf (z. B. Daten aufbereiten, Prüf- oder Berichtsläufe, technische Zuarbeit für Agenturen — auf Wunsch White-Label ohne Endkundenkontakt) inklusive Quellcode, Tests und Anleitung.
+Für den Einstieg reichen ein paar Sätze zum Problem oder ein neutrales Beispiel. Auf Wunsch können wir uns fünf Minuten auf Deutsch am Telefon kennenlernen, ohne Mindestbetrag. Technik, Umfang und Abnahme bleiben schriftlich auf Deutsch. Vor dem Start halte ich den verbindlichen Festpreis und die Prüfkriterien fest. Bei der Übergabe sehen Sie im Protokoll, was ich geprüft habe.
 
-## Zusammenarbeit
+## Öffentliche Projekte
 
-- **Schriftliches Angebot:** Umfang, fester Gesamtpreis und Prüfkriterien vor dem Start.
-- **Prüfprotokoll:** Ergebnis nachvollziehbar dokumentiert mit Übergabe- und Nachtest-Hinweisen.
-- **Kontaktaufnahme:** Ab `~500 €` auf Wunsch ein kurzes deutsches Kennenlern-Telefonat („Hallo sagen“); technische Details und Freigaben bleiben schriftlich auf Deutsch.
-- **Steuerhinweis:** Alle Preise sind Endpreise; gemäß `§ 19 UStG` wird keine Umsatzsteuer berechnet.
+- [ModVet](https://github.com/joergmichno/modvet) prüft KI-Erweiterungen lokal vor der Installation. Lizenz: Apache-2.0. Das Paket ist auf [PyPI](https://pypi.org/project/modvet/) verfügbar.
+- [Project Manager](https://github.com/joergmichno/project-manager) ist eine Projektübersicht mit Gantt-Ansicht, Kanban-Board und Frühwarnsystem.
 
-## Ausgewählte öffentliche Projekte & Fachbeiträge
+[Technische Beiträge im Blog](https://prompttools.co/blog/) · [LinkedIn-Profil](https://www.linkedin.com/in/joergmichno)
 
-- **[ModVet](https://github.com/joergmichno/modvet)** (`Apache-2.0`, [PyPI](https://pypi.org/project/modvet/)) — Deterministischer Offline-Sicherheitsscanner für KI-Erweiterungen in Python (ohne laufende API-Kosten).
-- **[Project Manager](https://github.com/joergmichno/project-manager)** — Projekt-Dashboard mit Gantt, Kanban und Frühwarnsystem (Next.js / TypeScript).
-- **[Fachbeiträge auf prompttools.co/blog](https://prompttools.co/blog)** — Technische Artikel zu Web- und Anwendungssicherheit.
+## Geschäftsangaben
 
-## Kontakt
+Jörg Michno, Walsroder Straße 351, 30855 Langenhagen  
+W-IdNr. DE308094818
 
-- **Website & Arbeitsproben:** [https://prompttools.co](https://prompttools.co) · [Leistungen](https://prompttools.co/services)
-- **E-Mail:** [joerg.michno@gmail.com](mailto:joerg.michno@gmail.com)
-- **LinkedIn:** [linkedin.com/in/joergmichno](https://www.linkedin.com/in/joergmichno)
-- **Geschäftsangaben:** Walsroder Straße 351 · 30855 Langenhagen · W-IdNr. DE308094818 · § 19 UStG
+Alle genannten Beträge sind Endpreise. Für inländische Leistungen berechne ich gemäß § 19 UStG keine Umsatzsteuer.
